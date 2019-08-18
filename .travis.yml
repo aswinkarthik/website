@@ -1,0 +1,20 @@
+sudo: false
+install:
+- wget -q "https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.tar.gz"
+  -O "hugo.tar.gz"
+- tar -xzf hugo.tar.gz
+script:
+- "./hugo"
+deploy:
+  provider: pages
+  repo: aswinkarthik/aswinkarthik.github.io
+  target-branch: master
+  skip_cleanup: true
+  local_dir: public
+  github_token: "$GITHUB_TOKEN"
+  keep-history: true
+  on:
+    branch: master
+env:
+  global:
+    secure: yqlueBCeXRIiB6v+l43gdsd+8j3ektrVtYkAbw7IvBBtkZO/UQcODMMaUnno7CpDcbmqg55Fxmt+6dIgzMRYFXy1IhoEKTK57pVfgrp7+BtySisSezrCEvoqmwoAKWYGPomLkHL2tGC04FliWcHqEbz736mc+5XnwNDmbaatmIFsEiRtPb7CXYaUV0JZOClyMpNBZff3yalqOtvkD+JbHUpjBR+gvQxm1eVZYmI8IuWY+L7poapxBGmbaCxWIwQrhAlb82hJI0nZ0sp047sgJKLPsVuGfoJsZDFLcbr7TDkxQpulqdGNH4HlteKQx1tq3Gb9WcCdlguSIfE8tW8WVr2hmI7DtsJVPZif7zT0oUApALYv3YwZyl7Z8f/OMm38ZojbdI4zn6YZMdkFZBhm4TTvFgTYDvgu1C2Br2Bkw80dmGDd5+s7+6jPpeDj2M9qiBDQWnDdxiBCcrBxo3U/XEorPgBWEFrWjlMIFuC+Qm+aZejg+WhcnpeGeJRIg4oCzlEwFRprdHDlpzwR/1PN2/QJW8OIp0b1vnQ4e995rFMq4Oz9N4hW7m0HeL/BHqeXNacw+kXCheWWuQWHLX6UdxTE83n+dZ7aPmwuDBmY/5PaXkFffwa/N344vVdtGx63pSVgBwumyYczOUTucO2QB0Ms+07EfXCQjUO+U8RPhlw=
