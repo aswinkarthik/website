@@ -8,7 +8,8 @@ script:
 - "./hugo"
 deploy:
   provider: pages
-  repo: aswinkarthik/aswinkarthik.github.io
+  repo: aswinkarthik/aswinkarthik.dev
+  fqdn: aswinkarthik.dev
   target-branch: master
   skip_cleanup: true
   local_dir: public
