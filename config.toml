@@ -1,0 +1,4 @@
+baseURL = "https://aswinkarthik.github.io/"
+languageCode = "en-us"
+title = "Aswin Karthik's Personal site"
+theme = "tale"
