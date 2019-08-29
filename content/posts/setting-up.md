@@ -1,7 +1,6 @@
 ---
 title: "Setting up this Blog"
 date: 2019-08-28T17:44:58+05:30
-draft: true
 ---
 
 I wanted to do a small write up on how I set this blog up. This blog uses [hugo](https://github.com/gohugoio/hugo) to generate content. Things to note about Hugo:
