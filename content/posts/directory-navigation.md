@@ -117,7 +117,7 @@ function previewSelection {
 # Export the function
 export -f previewSelection
 
-function gobir {
+function godir {
     directory=$(fd -E vendor -d 5 . ${HOME}/project/ | fzf --color 16 --preview "previewSelection {}" )
     if [ ! -z  "$directory" ]; then
         if [ ! -d "$directory" ]; then
