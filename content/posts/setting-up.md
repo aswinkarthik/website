@@ -55,7 +55,7 @@ Create the repository in the name `${USERNAME}.github.io`. Your site will be ser
 
 *Use custom domain*
 
-Create a custom domain using some provider. E.g domains.google.com. Create the repository in your name. In my case, I created the repo `aswinkarthik.dev`. Go to the `Settings` page of your repository. In the `GitHub Pages` section, specify your custom domain.
+Create a custom domain using some provider. E.g domains.google.com. Create the repository in your name. In my case, I created the repo `aswinkarthik.dev`. Go to the `Settings` page of your repository. In the `GitHub Pages` section, specify your custom domain. Also read [this](https://help.github.com/en/articles/setting-up-an-apex-domain) to point your domain to Github servers.
 
 Whatever domain you choose, make sure to update it in `./config.toml` under `baseURL`. We are at a point where if we put any HTML content into this repository, it will be served as a website. Let's do that.
 
@@ -113,13 +113,6 @@ This would have populated the `env.global.secure` section of the `.travis.yml`. 
 Travis will build and publish the HTML files to Github pages. You could access your URL using the domain you chose.
 
 ### 6. Future workflow
-
-To create posts
-
-```bash
-# This would create a Draft
-$ hugo new posts/setting-up.md
-```
 
 To create posts
 
