@@ -2,7 +2,6 @@
 title: "How I navigate directories?"
 date: 2019-08-30T12:45:00+05:30
 tags: [ "how-to", "interactive", "cli-hacks"]
-draft: true
 ---
 
 I do not use any `autojump` tools to navigate across my project directories. A simple `bash` function does the job for me. Customization is the main reason.
