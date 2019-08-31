@@ -2,11 +2,13 @@ baseURL = "https://aswinkarthik.dev/"
 languageCode = "en-us"
 title = "Aswin Karthik's Personal site"
 theme = "hugo-cactus-theme-plus"
+googleAnalytics = "UA-146772394-1"
 
 [params]
     author = "Aswin Karthik"
     description = "Programmer"
     iconFont = "mono-social"
+    enableGoogleAnalytics = true
 
 [social]
 	github = "https://www.github.com/aswinkarthik"
