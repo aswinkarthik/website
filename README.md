@@ -13,3 +13,10 @@ $ hugo server -D
 ## To generate ./public directory
 $ hugo
 ```
+
+To update theme submodules
+
+```bash
+$ git submodule update
+$ git submodule update --remote themes/erblog
+```
