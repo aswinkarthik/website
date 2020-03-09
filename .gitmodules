@@ -1,3 +1,6 @@
 [submodule "themes/erblog"]
 	path = themes/erblog
 	url = https://github.com/ertuil/erblog
+[submodule "themes/journal"]
+	path = themes/journal
+	url = https://github.com/dashdashzako/hugo-journal.git

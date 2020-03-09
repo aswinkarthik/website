@@ -1,6 +1,6 @@
 ---
-title: Aswin Karthik
-type: about
+title: About Me
+# type: about
 date: 2019-08-18T10:34:16+05:30
 ---
 

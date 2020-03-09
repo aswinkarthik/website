@@ -1,48 +1,23 @@
 baseURL = "https://aswinkarthik.dev/"
 languageCode = "en-us"
 title = "Aswin's Site"
-theme = "erblog"
+theme = "journal"
 googleAnalytics = "UA-146772394-1"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
+
 [params]
     author = "Aswin Karthik"
     description = "Developer/Programmer/Software Engineer"
+    githubUsername = "aswinkarthik"
     iconFont = "mono-social"
     enableGoogleAnalytics = true
     portrait = "aswinkarthik.jpg"
-    bio = """
-    <p>Full stack developer.</p><br/>
-    <p>Passionate on solving interesting engineering problems.</p><br/>
-    <p>Agile, Devops practitioner</p><br/>
-    <p>Podcasts, Music lover</p>
-
-    """
+    tagline = ""
     paginate = 3
     copyright = "Copyright © 2019 aswinkarthik.dev"
 [social]
 	github = "https://www.github.com/aswinkarthik"
 
 
-[[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-
-[[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-
-[[menu.icon]]
-    url = "https://github.com/aswinkarthik/"
-    name = "github"
-    weight = 1
-
-[[menu.icon]]
-    url = "https://twitter.com/aswinkarthik"
-    name = "twitter"
-    weight = 1
